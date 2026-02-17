@@ -1,6 +1,6 @@
 # NeetCode 150
 
-This repository contains my solutions to the NeetCode 150 — a curated set of high-impact LeetCode problems designed to master core technical interview patterns.
+This repository contains my solutions to the NeetCode 150.
 
 ## Progress
 
