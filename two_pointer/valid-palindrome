@@ -1,0 +1,32 @@
+import re
+"""
+Name: Valid Palindrome
+Difficulty: Easy
+Mastered: Yes
+
+Time: O(n)
+Space: O(1)
+Notes: Two Pointers. Check constraints—problems differ in case-sensitivity and alphanumeric requirements.
+"""
+
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        l, r = 0, len(s) - 1
+        while l < r:
+
+            # Move l to next alphanumeric char
+            while l < r and not s[l].isalnum():
+                l += 1
+
+            # Move r to next alphanumeric char
+            while r > l and not s[r].isalnum():
+                r -= 1
+
+            if s[l].lower() != s[r].lower():
+                return False
+
+            l += 1
+            r -= 1
+            
+        return True
+
