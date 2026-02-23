@@ -8,7 +8,6 @@ Space: O(n)
 Notes: Prefix & Suffix sum
 """
 
-from collections import Counter, heapq
 from typing import List
 
 class Solution:

@@ -8,7 +8,6 @@ Space: O(n)
 Notes: Set for O(1) checking if the number before another is in the set.
 """
 
-from collections import Counter, heapq
 from typing import List
 
 class Solution:
