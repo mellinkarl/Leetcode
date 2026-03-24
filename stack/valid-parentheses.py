@@ -8,7 +8,6 @@ Space: O(n)
 Notes: Stack
 """
 
-
 class Solution:
     def isValid(self, s: str) -> bool:
         paren_pairs = {'(': ')', '{': '}', '[': ']'}
