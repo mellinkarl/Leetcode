@@ -7,6 +7,8 @@ Time: O(log n)
 Space: O(1)
 Notes: left + (right - left) // 2 ensures there is no overflow.
 """
+from typing import List
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         low, high = 0, len(nums) - 1

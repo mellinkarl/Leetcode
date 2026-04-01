@@ -5,8 +5,8 @@ This repository contains my solutions to the NeetCode 150.
 ## Progress
 
 Total Problems: 150  
-Completed: 17  
-Remaining: 133  
+Completed: 16  
+Remaining: 134  
 
 
 ## Structure
